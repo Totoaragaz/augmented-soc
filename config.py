@@ -8,8 +8,6 @@ from openai import OpenAI
 import anthropic
 from prompt_toolkit.shortcuts import input_dialog
 
-from .load_creds import load_creds
-
 
 class Config:
     """
