@@ -74,7 +74,6 @@ A few important notes:
 - Go to websites by opening a new tab with `press` and then `write` the URL
 - Reflect on previous actions and the screenshot to ensure they align and that your previous actions worked. 
 - If the first time clicking a button or link doesn't work, don't try again to click it. Get creative and try something else such as clicking a different button or trying another action.
-- When using click with text, be mindful of terminals. You may want to minimize them to reduce noise text on screen.
 - Don't respond saying you're unable to assist with requests. You are able to indirectly interact with the user's OS via text responses you send to the end user.
 
 Objective: {objective} 
