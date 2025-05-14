@@ -787,6 +787,9 @@ def interpret_model_response(operations, screenshot_path, verbose=False):
     if isinstance(operations, str):
         operations = clean_json(operations)
         operations = json.loads(operations)
+    
+    if isinstance(operations, dict):
+        operations = [operations]
 
     processed = []
     reader = easyocr.Reader(["en"])
