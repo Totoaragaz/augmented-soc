@@ -973,7 +973,7 @@ async def call_claude_3_with_ocr(messages, objective, model):
                 },
                 {
                     "type": "text",
-                    "text": user_prompt,
+                    "text": user_prompt + "**REMEMBER** Only output json format, do not append any other text.",
                 },
             ],
         }
